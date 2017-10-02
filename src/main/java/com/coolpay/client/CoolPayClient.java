@@ -32,7 +32,7 @@ public class CoolPayClient {
     /**
      * Class attributes
      */
-    private static final String API_ENDPOINT = "https://coolpay.herokuapp.com/api/";
+    private static final String API_ENDPOINT = "https://coolpay.herokuapp.com/api/"; // production
     private static final String API_LOGIN_ENDPOINT = API_ENDPOINT+"login";
     private static final String RECIPIENT_ENDPOINT = API_ENDPOINT+"recipients";
     private static final String PAYMENT_ENDPOINT = API_ENDPOINT+"payments";

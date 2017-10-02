@@ -148,7 +148,7 @@ public class CoolPayClientTest extends TestCase {
             String status = this.client.checkStatusOfPayment(paymentId);
         } catch (NoSuchPaymentException | CoolPayClientException ex) {
             Logger.getLogger(CoolPayClientTest.class.getName()).log(Level.SEVERE, null, ex);
-            fail("The checkStatusOfPayment metho is coolPayClient failed");
+            fail("The checkStatusOfPayment method in coolPayClient failed");
         } 
     }
 }
